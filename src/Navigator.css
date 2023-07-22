@@ -1,0 +1,6 @@
+.navigator{
+    background-color: rgb(75, 71, 71);
+    color: white;
+    display: flex;
+    justify-content: center;
+}

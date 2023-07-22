@@ -1,0 +1,9 @@
+.app{
+    background-color: #f1efaf;
+    
+}
+.app__body{ 
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
