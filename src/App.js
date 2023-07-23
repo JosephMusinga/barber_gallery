@@ -1,18 +1,23 @@
 import './App.css';
-import Gallery from './Gallery';
-import Camera from './Camera';
-import Header from './Header';
-import Navigator from './Navigator';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Camera from './components/Camera';
+import Home from './components/Home';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
     <div className="app">
-      <Header />
-      <Navigator />
-      <div className='app__body'>
-        <Camera />
-        <Gallery />
-      </div>
+      
+      <BrowserRouter>
+        <Routes>
+          <Route exact path='/' element={<Home />}/>
+          <Route exact path='/gallery' element={<Gallery />}/>
+          <Route exact path='/camera' element={<Camera />}/>
+
+        </Routes>
+      </BrowserRouter>
+
 
     </div>
   );
