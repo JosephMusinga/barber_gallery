@@ -1,10 +1,15 @@
-.navigator{
+.navigator {
+    padding: 25px;
     background-color: rgb(75, 71, 71);
-    color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
-.navigator>button{
-    color: red;
-    font-style: italic;
+
+.nav__icon {
+    padding: 25px;
+}
+
+.nav__icon>img {
+    width: 300px;
+    height: 300px;
 }

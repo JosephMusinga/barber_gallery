@@ -7,8 +7,13 @@ function Navigator() {
 
     return (
         <div className='navigator'>
-            <button onClick={()=>navigate('/camera')}>Camera</button>
-            <button onClick={() => navigate('/gallery')}>Gallery</button>
+            <div className='nav__icon'>
+                <img src="/camera.jpg" alt="" onClick={() => navigate('/camera')} />
+            </div>
+            <div className='nav__icon'>
+                <img src="/gallery.jpg" alt="" onClick={() => navigate('/gallery')}/>
+                
+            </div>
         </div>
     )
 }

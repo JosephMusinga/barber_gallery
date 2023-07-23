@@ -1,4 +1,6 @@
 .header{
     display: flex;
     justify-content: center;
+    padding: 25px;
+    color: rgb(75, 71, 71);
 }

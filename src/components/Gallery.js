@@ -8,7 +8,7 @@ function Gallery() {
     return (
         <div className='gallery'>
             <h1>Gallery</h1>
-            <button onClick={()=>navigate(-1)}>Go Back Home</button>
+            <button onClick={() => navigate(-1)}>Go Back Home</button>
         </div>
     )
 }
