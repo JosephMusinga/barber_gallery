@@ -12,7 +12,6 @@ function Navigator() {
             </div>
             <div className='nav__icon'>
                 <img src="/gallery.jpg" alt="" onClick={() => navigate('/gallery')}/>
-                
             </div>
         </div>
     )

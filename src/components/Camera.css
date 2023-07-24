@@ -2,3 +2,7 @@
     background-color: rgb(61, 102, 120);
     color: white;
 }
+.camera > h1{
+    display: flex;
+    justify-content: center;
+}

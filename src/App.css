@@ -1,9 +1,17 @@
-.app{
+.app {
     background-color: #f1efaf;
-    
 }
-.app__body{ 
+
+.app__body {
     display: flex;
     justify-content: center;
     justify-content: space-evenly;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    padding-bottom: 15px;
+    color: rgb(75, 71, 71);
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import './Camera.css'
 import { useNavigate } from 'react-router-dom'
 
+
 function Camera() {
   const navigate = useNavigate()
 

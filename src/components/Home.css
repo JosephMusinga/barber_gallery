@@ -1,6 +1,6 @@
-.header{
+.home__text {
     display: flex;
     justify-content: center;
-    padding: 25px;
-    color: rgb(75, 71, 71);
+    padding-bottom: 11px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
