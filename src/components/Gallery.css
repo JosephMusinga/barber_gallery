@@ -1,8 +1,30 @@
-.gallery{
+.gallery {
     background-color: #86b6c8;
     color: white;
-}
-.gallery > h1{
     display: flex;
     justify-content: center;
+
+}
+
+.back__button{
+    justify-content: left;
+    background-color: red;
+}
+
+.gallery>button {
+    justify-content: left;
+    margin-left: 1px;
+
+}
+
+.gallery__item {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    padding: 11px;
+    transition: transform 200ms ease-in;
+}
+
+.gallery__item :hover {
+    transform: scale(1.9)
 }
