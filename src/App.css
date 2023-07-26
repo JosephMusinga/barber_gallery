@@ -1,17 +1,17 @@
 .app {
-    background-color: #f1efaf;
 }
 
 .app__body {
-    display: flex;
+    background-image: url('./bc.jpg');
     justify-content: center;
     justify-content: space-evenly;
 }
 
 .header {
+    background-color: black;
+    color: rgb(108, 199, 235);
     display: flex;
     justify-content: center;
     padding: 25px;
     padding-bottom: 15px;
-    color: rgb(75, 71, 71);
 }

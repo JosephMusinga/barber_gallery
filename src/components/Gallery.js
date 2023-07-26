@@ -4,10 +4,15 @@ import { useNavigate } from 'react-router-dom'
 
 function Gallery() {
     const navigate = useNavigate()
-    const imageUrls = ['/wallpaper.jpg']
+    const imageUrls = ['/wallpaper.jpg', '/jay.jpg', '1.jpg', '3.gif', '11.jpg', '22.jpeg', '33.jpeg']
 
     const imageElement = imageUrls.map((url) => {
-        return <img src='/wallpaper.jpg' alt='new' />;
+        return (
+            <div className="gallery__item">
+                <img src={url} alt='new' />
+            </div>
+
+        );
     });
 
     return (
@@ -18,7 +23,7 @@ function Gallery() {
                 </div>
                 <h1>Gallery</h1>
             </div>
-            <div className="gallery__item">
+            <div className="gallery__items">
                 {imageElement}
             </div>
         </>

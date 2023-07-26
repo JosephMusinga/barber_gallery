@@ -8,7 +8,7 @@ function App() {
   
   return (
 
-    <div className="app">
+    <div className="app__body">
       <div className='header'>
         <h1>Barber Next Cut</h1>
       </div>
@@ -19,8 +19,6 @@ function App() {
           <Route exact path='/camera' element={<Camera />} />
         </Routes>
       </BrowserRouter>
-
-
     </div>
   );
 }

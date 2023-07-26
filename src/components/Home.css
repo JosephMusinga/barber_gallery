@@ -1,6 +1,7 @@
 .home__text {
     display: flex;
     justify-content: center;
-    padding-bottom: 11px;
+    padding: 11px;
+    background-color: white;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
