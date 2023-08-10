@@ -3,9 +3,14 @@
 
 .app__body {
     background-image: url('./bc.jpg');
+    background-attachment: fixed;
     justify-content: center;
     justify-content: space-evenly;
 }
+app__body > {
+
+}
+
 
 .header {
     background-color: black;

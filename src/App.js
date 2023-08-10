@@ -21,7 +21,7 @@ function App() {
       <div className='header'>
         <h1>Barber Next Cut</h1>
       </div>
-        <h1 style={{color:'red'}}>{message}</h1>
+        {/* <h1 style={{color:'red'}}>{message}</h1> */}
 
       <BrowserRouter>
         <Routes>

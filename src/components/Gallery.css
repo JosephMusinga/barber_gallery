@@ -11,10 +11,11 @@
     background-color: red;
 }
 
-.gallery>button {
+
+.back__button > button {
     justify-content: left;
     margin-left: 1px;
-
+    cursor: pointer;
 }
 
 .gallery__items {
@@ -40,8 +41,9 @@
     width: 300px;
     height: 300px;
     border-radius: 9px;
+    cursor: pointer;
 }
 
 .gallery__item:hover {
-    transform: scale(1.7);
+    transform: scale(1.3);
 }
