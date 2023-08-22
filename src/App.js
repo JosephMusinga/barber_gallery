@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Camera from './components/Camera';
 import Home from './components/Home';
 import Gallery from './components/Gallery';
+import UploadForm from './components/UploadForm';
 // import React, { useState, useEffect } from 'react';
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route exact path='/' element={<Home />} />
           <Route exact path='/gallery' element={<Gallery />} />
           <Route exact path='/camera' element={<Camera />} />
+          <Route exact path='/uploadForm' element={<UploadForm />} />
         </Routes>
       </BrowserRouter>
     </div>

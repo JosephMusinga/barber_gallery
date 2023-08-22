@@ -2,6 +2,8 @@
     padding: 25px;
     display: flex;
     justify-content: space-evenly;
+    background-image: url('./bc.jpg');
+
 }
 
 .nav__icon {
