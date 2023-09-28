@@ -21,6 +21,9 @@
     cursor: pointer;
     margin-bottom: 12px;
 }
+.gallery__item > img{
+    border-radius: 6px;
+}
 
 .gallery__item:hover{
     transform: scale(1.05);
@@ -80,7 +83,7 @@
     padding: 20px 0 20px;
     margin: auto;
 }
-.model.open > button{
+.model.open > button{  
     position: fixed;
     top: 10px;
     right: 10px;
